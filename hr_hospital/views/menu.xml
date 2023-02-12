@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="hr_hospital_main_menu"
+              name="HR Hospital"
+              web_icon="library,static/description/icon.png"
+              sequence="300"/>
+              
+    <menuitem id="hr_hospital_catalog_menu"
+              patern="hr_hospital_main_menu"
+              name="Catalog"
+              web_icon="library,static/description/icon.png"
+              sequence="100"/>
+              
+    <menuitem id="hr_hospital_settings_menu"
+              patern="hr_hospital_main_menu"
+              name="Settings"
+              groups="group_hr_hospital_manage,group_hr_hospital_admin"
+              web_icon="library,static/description/icon.png"
+              sequence="9999"/>
+
+</odoo>
