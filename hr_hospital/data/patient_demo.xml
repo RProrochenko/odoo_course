@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="library_patient_william_demo" model="hr.hospital.patient">
+        <field name="name">William</field>
+        <field name="age">32</field>
+    </record>
+    <record id="library_patient_ethan_demo" model="hr.hospital.patient">
+        <field name="name">Ethan</field>
+        <field name="age">21</field>
+    </record>
+    <record id="library_patient_alexander_demo" model="hr.hospital.patient">
+        <field name="name">Alexander</field>
+        <field name="age">11</field>
+    </record>
+
+</odoo>

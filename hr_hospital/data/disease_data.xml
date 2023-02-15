@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="library_disease_allergy_data" model="hr.hospital.disease">
+        <field name="name">allergy</field>
+    </record>
+    <record id="library_disease_asthma_data" model="hr.hospital.disease">
+        <field name="name">asthma</field>
+    </record>
+    <record id="library_disease_bronchitis_data" model="hr.hospital.disease">
+        <field name="name">bronchitis</field>
+    </record>
+
+</odoo>

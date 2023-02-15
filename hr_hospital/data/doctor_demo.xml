@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="library_doctor_noah_demo" model="hr.hospital.doctor">
+        <field name="name">Noah</field>
+    </record>
+    <record id="library_doctor_mason_demo" model="hr.hospital.doctor">
+        <field name="name">Mason</field>
+    </record>
+    <record id="library_doctor_liam_demo" model="hr.hospital.doctor">
+        <field name="name">Liam</field>
+    </record>
+
+</odoo>

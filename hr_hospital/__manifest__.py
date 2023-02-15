@@ -1,32 +1,24 @@
-# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl-3.0.html).
-
 {
-    'name': 'My Library',
+    'name': 'Hospital',
     'version': '15.0.1.0.0',
-
-    'category': 'Extra Tools',
-    'summary': """
-                """,
-    
-    'license': 'LGPL-3',
+    'summary': 'Hospital App',
     'author': 'Rostyslav Prorochenko',
-    'website': 'https://odoo.school',
-
-    'depends': [
-    ],
-
+    'website': 'https://www.odoo.com',
+    'license': 'LGPL-3',
+    'category': 'Extra Tools',
     'data': [
-        'security/ir.model.access.csv'
-
-        'views/menu.xml'
-        'views/doctor.xml'
-
+        'security/ir.model.access.csv',
+        'data/disease_data.xml',
+        'views/menu.xml',
+        'views/visit.xml',
+        'views/doctor.xml',
+        'views/patient.xml',
+        'views/disease.xml',
     ],
-
     'demo': [
+        'data/doctor_demo.xml',
+        'data/patient_demo.xml',
     ],
-
-    'support': 'support@support.biz',
     'application': False,
     'installable': True,
     'auto_install': False,
